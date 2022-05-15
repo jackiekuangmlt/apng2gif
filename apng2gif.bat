@@ -4,7 +4,7 @@ chcp 65001 >nul
 title APNG转GIF工具v1.1 By 米柚子
 
 set "ffmpeg=ffmpeg"
-set /A whitebgd = 1
+set /A whitebgd = 0
 set "PATH=%PATH%;"%~dp0""
 
 if "%~1"=="" (
